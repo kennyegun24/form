@@ -211,7 +211,10 @@ form.addEventListener('submit', (e) => {
     if (!nameChk() || !numChk() || !emailChk() || !pswChk()) {
         e.preventDefault()
         return false
-    } return true
+    } else {
+alert("Form has been submitted")
+return true
+}
 })
 
 </script>
